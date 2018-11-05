@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addons>
+<addon id="plugin.video.anime4allwizard" name="anime4allwizard" version="1.0.1" provider-name="Anime4All.net">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Anime4All Wizard</summary>
+    <description lang="en">Easy Install With KODI / XBMC Wizard / ##CREDIT TO LEE @ COMMUNITY BUILDS FOR WRITING THE FORCE CLOSE FUNCTION AND ANY OTHER DEVS WHO CREATED ANY MODULES USED##
+##Templete by Husham##</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="repository.anime4all" name="Anime4All" version="0.0.1" provider-name="Anime4All">
+	<extension point="xbmc.addon.repository" name="Anime4All">
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/</datadir>
+		</dir>
+		<info compressed="false">https://raw.githubusercontent.com/lordfenixnc/repository.anime4all/master/zips/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/lordfenixnc/repository.anime4all/master/zips/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/lordfenixnc/repository.anime4all/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">anime4all repo</summary>
+		<description lang="en">anime4all repo housing projects for anime4all</description>
+		<genre>anime,movies,japanese,usa</genre>
+	</extension>
+</addon>
+</addons>
