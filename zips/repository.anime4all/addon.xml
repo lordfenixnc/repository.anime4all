@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository.anime4all" name="Anime4All" version="0.0.1" provider-name="Anime4All">
+<addon id="repository.anime4all" name="Anime4All" version="0.0.2" provider-name="Anime4All">
 	<extension point="xbmc.addon.repository" name="Anime4All">
 		<dir>
 			<info compressed="false">https://raw.githubusercontent.com/totalrevolution/python-koding/master/zips/addons.xml</info>
