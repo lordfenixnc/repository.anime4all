@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon
+  id="plugin.video.anime4all"
+  version="2.0.1"
+  name="**[COLOR yellow]Anime4All[/COLOR]"
+  provider-name="Anime4All">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.kodiswift" version="0.0.7" />
+    <import addon="script.module.kodi4vn" version="0.0.7" />
+    <import addon="plugin.video.youtube" version="4.4.1" />
+    <import addon="script.module.httplib2" version="0.1" />
+    <import addon="service.kodi4vn.iptvproxy" version="0.1" />
+    <import addon="service.kodi4vn.maintenance" version="0.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>Anime4all Addon </summary>
+    <description>Watch Animes On Demand . visit our website at dbproject.info or anime4all.online</description>
+    <platform>all</platform>
+  </extension>
+</addon>
