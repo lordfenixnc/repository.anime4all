@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addon
   id="plugin.video.anime4all"
-  version="2.0.1"
-  name="**[COLOR yellow]Anime4All[/COLOR]"
+  version="2.0.2"
+  name="[COLOR yellow]Anime4All[/COLOR]"
   provider-name="Anime4All">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -18,7 +18,7 @@
   </extension>
   <extension point="xbmc.addon.metadata">
     <summary>Anime4all Addon </summary>
-    <description>Watch Animes On Demand . visit our website at dbproject.info or anime4all.online</description>
+    <description>Watch Anime On Demand . visit our website at Anime4All.Net</description>
     <platform>all</platform>
   </extension>
 </addon>
